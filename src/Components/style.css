@@ -110,3 +110,23 @@ p{
 .box-content img:hover{
     transform: rotate(0deg);
 }
+body {
+	margin: 0;
+	padding: 0;
+	height: 1000px;
+}
+
+.App {
+	color: #228b22;
+	text-align: center;
+}
+
+.footer {
+	background-color: green;
+	border-top: 2px solid red;
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	color: white;
+	font-size: 25px;
+}

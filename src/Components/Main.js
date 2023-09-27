@@ -4,6 +4,7 @@ import axios from "axios";
 import { useState } from "react";
 import { useEffect } from "react";
 import { getCharacters } from "../utils/utils";
+import Footer from "./footer";
 
 export const Main = () => {
   const [url, setUrl] = useState();
@@ -41,6 +42,7 @@ export const Main = () => {
         </div>
       </div>
       <div className="content">{!item ? <p>Not Found</p> : <Card data={item} />}</div>
+      <Footer />
     </>
   );
 };
